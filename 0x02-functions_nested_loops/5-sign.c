@@ -25,8 +25,6 @@ int print_sign(int n)
 		_putchar('-');
 		return (-1);
 	}
-	/*
-	 * This return statement will handle the case when none of the conditions are met.
-	 */
+	/* Handles case when no conditions are met. */
 	return (0);
 }
