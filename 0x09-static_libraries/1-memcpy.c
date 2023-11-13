@@ -12,7 +12,7 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	int r = 0;
 
-	for (; r < n; r++)
+	for (int r = 0; r < (int)n; r++)
 	{
 		dest[r] = src[r];
 	}
